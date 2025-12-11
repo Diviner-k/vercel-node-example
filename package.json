@@ -1,0 +1,19 @@
+{
+  "name": "vercel-node-example",
+  "version": "1.0.0",
+  "description": "vercel部署node项目示例",
+  "main": "app.js",
+  "repository": "https://github.com/Diviner-k/vercel-node-example.git",
+  "author": "'Diviner-北' <'1287771237@qq.com'>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
